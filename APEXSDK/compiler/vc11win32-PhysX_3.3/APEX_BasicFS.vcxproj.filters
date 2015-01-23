@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="CUDA Modules"><!-- CUDA_L1 -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<CustomBuild Include="..\..\module\basicfs\cuda\basicfs.cu">
+			<Filter>CUDA Modules</Filter>
+		</CustomBuild>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="CUDA Source"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="CUDA Source\include"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\module\basicfs\cuda\include\basicfs.h">
+			<Filter>CUDA Source\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\cuda\include\common.h">
+			<Filter>CUDA Source\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Module Common"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Module Common\src"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\module\common\src\CudaModuleScene.cpp">
+			<Filter>Module Common\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\common\src\ModuleProfileCommon.cpp">
+			<Filter>Module Common\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Module Common\include"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\module\common\include\CommonParamClasses.h">
+			<Filter>Module Common\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\common\include\CudaModuleScene.h">
+			<Filter>Module Common\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\common\include\ModuleProfileCommon.h">
+			<Filter>Module Common\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Module Common\cuda"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\module\common\cuda\blocksync.cuh">
+			<Filter>Module Common\cuda</Filter>
+		</None>
+		<None Include="..\..\module\common\cuda\common.cuh">
+			<Filter>Module Common\cuda</Filter>
+		</None>
+		<None Include="..\..\module\common\cuda\reduce.cuh">
+			<Filter>Module Common\cuda</Filter>
+		</None>
+		<None Include="..\..\module\common\cuda\scan.cuh">
+			<Filter>Module Common\cuda</Filter>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="BasicFS"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="BasicFS\src"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSActorParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSAssetParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSAssetPreview.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\AttractorFSPreviewParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\BasicFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\BasicFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\BasicFSDebugRenderParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\BasicFSModuleParameters.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\BasicFSScene.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSActorParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSAssetParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSAssetPreview.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\JetFSPreviewParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\ModuleBasicFS.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSActorParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSAssetParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSAssetPreview.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\NoiseFSPreviewParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSActorParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSAssetParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSAssetPreview.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\VortexFSPreviewParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSActor.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSActorParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSAsset.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSAssetParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSAssetPreview.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\module\basicfs\src\WindFSPreviewParams.cpp">
+			<Filter>BasicFS\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="BasicFS\include"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSActorParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSAssetParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSAssetPreview.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSCommon.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\AttractorFSPreviewParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicFSDebugRenderParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicFSModuleParameters.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicfsParamClasses.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\BasicFSScene.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSActorParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSAssetParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSAssetPreview.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSCommon.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\JetFSPreviewParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\MinPhysxSdkVersion.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\ModuleBasicFS.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\ModuleEventDefs.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\ModuleGpuEventDefs.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\ModulePerfScope.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSActorParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSAssetParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSAssetPreview.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSCommon.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\NoiseFSPreviewParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSActorParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSAssetParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSAssetPreview.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSCommon.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\VortexFSPreviewParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSActor.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSActorParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSAsset.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSAssetParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSAssetPreview.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSCommon.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\include\WindFSPreviewParams.h">
+			<Filter>BasicFS\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="BasicFS\public"><!--  -->
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\module\basicfs\public\NxAttractorFSActor.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxAttractorFSPreview.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxBasicFSAsset.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxJetFSActor.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxJetFSPreview.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxModuleBasicFS.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxNoiseFSActor.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxNoiseFSPreview.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxVortexFSActor.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxVortexFSPreview.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxWindFSActor.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\module\basicfs\public\NxWindFSPreview.h">
+			<Filter>BasicFS\public</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+</Project>
